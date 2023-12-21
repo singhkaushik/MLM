@@ -19,7 +19,7 @@ const signup = async (req, res, next) => {
 
     for (let i = 0; i < nameArray.length; i++) {
       let char = nameArray[i].charAt(0) + nameArray[i].charAt(1);
-      // userID += char.toUpperCase();
+      userID += char.toUpperCase();
     }
 
     let originalUserID = userID;
